@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script>
+        window.onload = function () {
+            var dataPoints = [];
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                title: {
+                    text: "Champions league winners by country"
+                },
+                data: [{
+                    indexLabelFontWeight: "bold",
+                    type: "pie",
+                    startAngle: 240,
+                    indexLabelFontSize: 20,
+                    yValueFormatString: "##0.00\"%\"",
+                    indexLabel: "{label} {y}",
+                    dataPoints: dataPoints
+                }]
+            });
+            function addData(data) {
+                var sortedMap = prepareData(data);
+                sortedMap.forEach((value, key, sortedMap) => {
+                    dataPoints.push({
+                        y: value,
+                        label: key
+                    });
+                });
+                chart.render();
+            }
+            $.getJSON("champions_league.json", addData);
+        }
+    </script>
+</head>
+
+<body>
+    <br />
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script src="prepare.js" type="text/javascript"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+</html>

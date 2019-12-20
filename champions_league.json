@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Real Madrid",
+        "founded": "1902",
+        "won": 13,
+        "country": "Spain"
+    },
+    {
+        "name": "AC Milan",
+        "founded": "1899",
+        "won": 7,
+        "country": "Italy"
+    },
+    {
+        "name": "FC Liverpool",
+        "founded": "1892",
+        "won": 6,
+        "country": "England"
+    },
+    {
+        "name": "FC Bayern München",
+        "founded": "1900",
+        "won": 5,
+        "country": "Germany"
+    },
+    {
+        "name": "FC Barcelona",
+        "founded": "1899",
+        "won": 5,
+        "country": "Spain"
+    },
+    {
+        "name": "Ajax",
+        "founded": "1900",
+        "won": 4,
+        "country": "Netherlands"
+    },
+    {
+        "name": "Inter Milan",
+        "founded": "1908",
+        "won": 3,
+        "country": "Italy"
+    },
+    {
+        "name": "Manchester United",
+        "founded": "1878",
+        "won": 3,
+        "country": "England"
+    },
+    {
+        "name": "Juventus Turin",
+        "founded": "1897",
+        "won": 2,
+        "country": "Italy"
+    },
+    {
+        "name": "Benfica Lissabon",
+        "founded": "1904",
+        "won": 2,
+        "country": "Portugal"
+    },
+    {
+        "name": "Nottingham Forest",
+        "founded": "1865",
+        "won": 2,
+        "country": "England"
+    },
+    {
+        "name": "FC Porto",
+        "founded": "1893",
+        "won": 2,
+        "country": "Portugal"
+    },
+    {
+        "name": "Celtic",
+        "founded": "1887",
+        "won": 1,
+        "country": "Scotland"
+    },
+    {
+        "name": "Hamburger SV",
+        "founded": "1919",
+        "won": 1,
+        "country": "Germany"
+    },
+    {
+        "name": "Steaua Bukarest",
+        "founded": "1947",
+        "won": 1,
+        "country": "Romania"
+    },
+    {
+        "name": "Marseille",
+        "founded": "1899",
+        "won": 1,
+        "country": "France"
+    },
+    {
+        "name": "Borussia Dortmund",
+        "founded": "1909",
+        "won": 1,
+        "country": "Germany"
+    },
+    {
+        "name": "Chelsea",
+        "founded": "1905",
+        "won": 1,
+        "country": "England"
+    },
+    {
+        "name": "Feyenoord",
+        "founded": "1908",
+        "won": 1,
+        "country": "Netherlands"
+    },
+    {
+        "name": "Aston Villa",
+        "founded": "1874",
+        "won": 1,
+        "country": "England"
+    },
+    {
+        "name": "PSV Eindhoven",
+        "founded": "1913",
+        "won": 1,
+        "country": "Netherlands"
+    },
+    {
+        "name": "Red Star Belgrade",
+        "founded": "1945",
+        "won": 1,
+        "country": "Yugoslavia"
+    }
+]
