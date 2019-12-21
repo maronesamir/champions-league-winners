@@ -6,14 +6,16 @@
         window.onload = function () {
             var dataPoints = [];
             var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
                 title: {
                     text: "Champions league winners by country"
                 },
                 data: [{
                     indexLabelFontWeight: "bold",
+                    type: "pie",
+                    startAngle: 240,
                     indexLabelFontSize: 20,
-                    indexLabelPlacement: "inside",
-                    type: "doughnut",
+                    indexLabel: "{label} {y}",
                     dataPoints: dataPoints
                 }]
             });
@@ -31,7 +33,6 @@
         }
     </script>
 </head>
-
 <body>
     <br />
     <div id="chartContainer" style="height: 370px; width: 100%;"></div>
@@ -39,5 +40,4 @@
     <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
-
 </html>
